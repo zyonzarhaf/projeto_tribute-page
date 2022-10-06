@@ -30,15 +30,29 @@ body {
     width: 100%;
 }
 
-#header {
-    height: 600px;
-    width: 100%;
-    box-shadow: inset 1px 1px 4em black;
-    background-image: url(./images/archivist.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: bottom center;
+@media screen and (min-width: 480px) {
+    #header {
+        height: 600px;
+        width: 100%;
+        box-shadow: inset 1px 1px 4em black;
+        background-image: url(./images/archivist.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+        height: 600px;
+        width: 100%;
+        box-shadow: inset 1px 1px 4em black;
+        background-image: url(./images/archivist.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
 }
 
 #title, #subtitle {
