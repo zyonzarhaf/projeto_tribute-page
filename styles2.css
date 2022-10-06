@@ -32,6 +32,7 @@ body {
 
 #header {
     height: 100vh;
+    width: 100vw;
     box-shadow: inset 1px 1px 4em black;
     background-image: url(./images/archivist.jpg);
     background-size: cover;
