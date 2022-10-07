@@ -5,6 +5,8 @@
     src: url('./fonts/C800.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -119,6 +121,7 @@ body {
 #tribute-information > h1 {
     padding-top: 52px;
     padding-bottom: 52px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-variant: small-caps;
     text-align: center;
     color: rgb(112, 25, 112);
@@ -127,7 +130,7 @@ body {
 @media screen and (min-width: 480px) {
     #tribute-information > p {
         margin: 0px 24px 24px 0px;
-        font-family: 'MS UI Gothic';
+        font-family: 'Nanum Gothic Coding', monospace;
         text-align: justify;
         text-indent: 1.25cm;
         line-height: 1.7em;
@@ -137,7 +140,7 @@ body {
 @media screen and (max-width: 480px) {
 #tribute-information > p {
     margin: 0px 24px 24px 0px;
-    font-family: 'MS UI Gothic';
+    font-family: 'Nanum Gothic Coding', monospace;
     text-align: center;
     line-height: 1.7em;
     }
