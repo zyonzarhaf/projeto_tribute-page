@@ -49,6 +49,7 @@ body {
         box-shadow: inset 1px 1px 4em black;
         background-image: url(./images/archivist.jpg);
         background-size: cover;
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
     }
