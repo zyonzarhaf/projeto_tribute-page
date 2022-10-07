@@ -124,10 +124,21 @@ body {
     color: rgb(112, 25, 112);
 }
 
+@media screen and (min-width: 480px) {
+    #tribute-information > p {
+        margin: 0px 24px 24px 0px;
+        font-family: 'MS UI Gothic';
+        text-align: center;
+        line-height: 1.7em;
+    }
+}
+
+@media screen and (max-width: 480px) {
 #tribute-information > p {
     margin: 0px 24px 24px 0px;
     font-family: 'MS UI Gothic';
     text-align: justify;
     text-indent: 42px;
     line-height: 1.7em;
+    }
 }
