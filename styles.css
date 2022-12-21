@@ -82,10 +82,11 @@ section > p {
         }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 720px) and (orientation: landscape) {
     header {
         height: 300px;
-        background-image: url(./images/archivist-s.jpg);
+        background-image: url(./images/archivist-s-p.jpg);
+
     }
 
     section > p {
