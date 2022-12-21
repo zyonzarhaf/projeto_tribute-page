@@ -90,6 +90,7 @@ section > p {
         background-image: url(./images/archivist-landscape.jpg);
         background-position: bottom center;
     }
+}
 
 /*tela maior*/
 @media screen and (min-width: 480px) and (max-width: 1600px) {
